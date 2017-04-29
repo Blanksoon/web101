@@ -1,6 +1,6 @@
 # 17 Understanding Closures
 
-#### Closures is take say at excution greet function
+#### Closures is take parameter say at excution greet function
 
 ```javascript
 function greet(say) {
