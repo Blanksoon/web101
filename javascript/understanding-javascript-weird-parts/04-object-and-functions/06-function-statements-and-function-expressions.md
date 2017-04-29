@@ -20,7 +20,7 @@ switch (expression) {
 }
 
 // function statement
-function(...parameters) {
+function <name>(...parameters) {
 
 }
 ```

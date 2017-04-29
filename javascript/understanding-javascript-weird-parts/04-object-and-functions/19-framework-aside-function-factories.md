@@ -19,3 +19,5 @@ nqmt('nqmt', 'whyloop') // Programmer : nqmt whyloop
 // other excution context
 makePerson('designer')('nqmt', 'whyloop') // Designer : nqmt whyloop
 ```
+
+![closure3](img/closure3.png)

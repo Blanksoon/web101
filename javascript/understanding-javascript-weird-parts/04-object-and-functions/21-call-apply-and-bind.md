@@ -65,3 +65,5 @@ console.log(multiplyTwo(8)) // 16
 var multiplyThree = mutiply.bind(this, 3)
 console.log(multiplyThree(8)) // 24
 ```
+
+![call apply bind](img/bind-call-apply.png)

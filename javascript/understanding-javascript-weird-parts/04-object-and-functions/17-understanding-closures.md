@@ -17,3 +17,5 @@ var say = greet('Hi')('nqmt')
 ```
 
 > flow: global create -> greet() excution context -> pop greet() excution context return anonymouns function but take variable in greet() -> anonymouns excution context can access say
+
+![Closures](img/closure.png)

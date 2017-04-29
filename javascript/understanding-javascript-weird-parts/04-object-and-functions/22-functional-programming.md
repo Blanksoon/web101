@@ -50,4 +50,4 @@ var limiter = function make(limit) {
 }
 var limitThree = map(arr, limiter(3))
 ```
-> :exclamation: if usage function not bind it's error because function expression not excution to take value limit from make function, wherefore while use in map function It's use Only one parameter
+> :exclamation: if usage function not bind it's error because function expression cannot match limit(make) to limit(usage), wherefore while use in map function It's use two parameter in map function

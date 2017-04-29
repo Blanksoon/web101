@@ -16,3 +16,5 @@ console.log(greeting)
 ```
 
 > :information_source: this and global is same thing
+
+![IIFEs](img/iifes.png)
