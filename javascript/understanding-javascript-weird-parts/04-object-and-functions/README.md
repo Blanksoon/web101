@@ -1,4 +1,5 @@
-# Object and Functions
+# 4 Object and Functions
+
 [01 Object and the dot](01-object-and-the-dot.md)
 
 [02 Object and Object literal](02-object-and-object-literal.md)
