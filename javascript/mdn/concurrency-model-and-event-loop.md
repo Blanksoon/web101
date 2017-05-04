@@ -48,3 +48,6 @@ Run Immediately but wait empty stack
 #### Several runtime comunicating together
 
 A web worker or a cross-origin (iframe) is two distinct runtime, Only communicate with postMessage()
+
+#### Good Explanation Event loop
+[Youtube JSConf](https://www.youtube.com/watch?v=8aGhZQkoFbQ&t=1s)
