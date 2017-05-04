@@ -1,6 +1,6 @@
 # Concurrency model and Event loop
 
-![Stack Queue Heap](img/stack-queue-heap.svg)
+![Stack Queue Heap](img/stack-queue-heap.jpg)
 
 #### Stack
 
