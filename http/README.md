@@ -4,14 +4,14 @@ HTTP
 HTTP fetch
 ----------
 
-![HTTP](/img/fetch-http.png)
+![HTTP](img/fetch-http.png)
 
 HTTP pipelining is activated, several requests can be sent without waiting for the first response to be fully received.
 
 HTTP Layer
 ----------
 
-![HTTP Layer](/img/http-layer.png)
+![HTTP Layer](img/http-layer.png)
 
 TCP and TLS is transport protocol and reliable
 
@@ -25,7 +25,7 @@ The user-agent is any tool that acts on the behalf of the user. This role is pri
 Proxy
 -----
 
-![Proxy](/img/proxy.png)
+![Proxy](img/proxy.png)
 
 Between the Web browser and the server, numerous computers and machines relay the HTTP messages.
 
@@ -75,13 +75,13 @@ Content-Type: text/html
 Requests
 --------
 
-![Request](/img/http-request.png)
+![Request](img/http-request.png)
 
 Path www.google.com/
 
 Response
 --------
 
-![Response](/img/http-response.png)
+![Response](img/http-response.png)
 
 **Reference** [Reference](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview)
