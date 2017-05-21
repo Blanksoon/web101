@@ -1,0 +1,19 @@
+{
+  "name": "00-basic-javascript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node ./src/index.js",
+    "make": "babel src/index.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "tracer": "^0.8.9"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.4.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1"
+  }
+}

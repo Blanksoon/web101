@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      body {
+        font-family: Helvetica, Arial, sans-serif;
+        font-size: 12px;
+      }
+
+      h1 {
+        font-size: 1.5em;
+      }
+      h2 {
+        font-size: 1.2em;
+      }
+    </style>
+  </head>
+  <body>
+    <p id="help">Helpful notes will appear here</p>
+    <p>E-mail: <input type="text" id="email" name="email"></p>
+    <p>Name: <input type="text" id="name" name="name"></p>
+    <p>Age: <input type="text" id="age" name="age"></p>
+
+    <script>
+      function showHelp(help) {
+        document.getElementById('help').innerHTML = help;
+      }
+      /* make closure */
+      function makeClosure(item) {
+        return function() {
+          showHelp(item.help)
+        }
+      }
+
+      function setupHelp() {
+        var helpText = [
+            {'id': 'email', 'help': 'Your e-mail address'},
+            {'id': 'name', 'help': 'Your full name'},
+            {'id': 'age', 'help': 'Your age (you must be over 16)'}
+          ];
+
+        for (var i = 0; i < helpText.length; i++) {
+          var item = helpText[i];
+          document.getElementById(item.id).onfocus = function() {
+            showHelp(item.help);
+          }
+        }
+      }
+
+      setupHelp();
+    </script>
+  </body>
+</html>
+<!--
+  it's fail display because item.help is variable scope in setupHelp, function() memoriz same item all time loop
+-->
+
+<!--
+  Solution1: line 43 change 
+  var to let
+-->
+
+<!--
+  Solution2: make closure function and use in line 44, for change scope variable
+  document.getElementById(item.id).onfocus = makeClosure(item)
+-->
+
+<!--
+  Solution3: make Anonymous closure function in loop line 43
+  (function () {
+    var item = helpText[i]
+    document.getElementById(item.id).onfocus = function() {
+      showHelp(item.help)
+    }
+  })()
+-->
